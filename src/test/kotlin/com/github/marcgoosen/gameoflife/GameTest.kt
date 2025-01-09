@@ -5,11 +5,13 @@ import org.junit.jupiter.api.Assertions.assertNotEquals
 import org.junit.jupiter.api.Test
 
 class GameTest {
-    private val universe = setOf(
-        Point(1, 1),
-        Point(1, 2),
-        Point(2, 1),
-        Point(2, 2)
+    private val universe = Universe(
+        setOf(
+            Point(1, 1),
+            Point(1, 2),
+            Point(2, 1),
+            Point(2, 2)
+        )
     )
 
     @Test
